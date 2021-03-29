@@ -29,6 +29,7 @@
 
 .title-section {
   display: flex;
+  margin: auto;
 }
 
 .title-image {
@@ -53,5 +54,8 @@ h1 {
   .testimonials-section,
   .contact-section {
     height: 90vh;
+  }
+  .title-image {
+    width: 70%;
   }
 }
