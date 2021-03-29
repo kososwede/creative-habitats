@@ -10,6 +10,17 @@
 html,
 body {
   overflow-x: hidden;
+  background-color: rgba(222, 222, 222, 1);
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px !important;
+  width: 70%;
+  border-radius: 50%;
 }
 
 .navbar-brand {
@@ -28,7 +39,22 @@ body {
 .contact-section {
   height: 100%;
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+}
+
+.services-section,
+.my-work-section,
+.testimonials-section,
+.contact-section {
+  background-image: url("../images/leafs-falling.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(222, 222, 222, 1);
+}
+
+.services-text {
+  float: right;
 }
 
 .title-section {
@@ -54,18 +80,23 @@ body {
 
 .titles {
   text-align: center;
-  display: inline;
+  padding-bottom: 20px;
 
-  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .tools-pic {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
-h1 {
+.col-sm-12 {
+  text-align: center;
+}
+
+.services-text {
+  margin-top: 40px;
 }
 
 .section-image,
@@ -90,52 +121,14 @@ h1 {
   .title-image {
     width: 70%;
   }
-}
-
-.services-section {
-  background: rgb(34, 194, 195);
-  background: -moz-linear-gradient(
-    313deg,
-    rgba(34, 194, 195, 1) 0%,
-    rgba(147, 151, 147, 1) 0%,
-    rgba(245, 241, 241, 1) 63%
-  );
-  background: -webkit-linear-gradient(
-    313deg,
-    rgba(34, 194, 195, 1) 0%,
-    rgba(147, 151, 147, 1) 0%,
-    rgba(245, 241, 241, 1) 63%
-  );
-  background: linear-gradient(
-    313deg,
-    rgba(34, 194, 195, 1) 0%,
-    rgba(147, 151, 147, 1) 0%,
-    rgba(245, 241, 241, 1) 63%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c2c3",endColorstr="#f5f1f1",GradientType=1);
-}
-
-.my-work-section {
-  background: rgb(34, 194, 195);
-  background: -moz-linear-gradient(
-    228deg,
-    rgba(34, 194, 195, 1) 0%,
-    rgba(147, 151, 147, 1) 0%,
-    rgba(245, 241, 241, 1) 63%
-  );
-  background: -webkit-linear-gradient(
-    228deg,
-    rgba(34, 194, 195, 1) 0%,
-    rgba(147, 151, 147, 1) 0%,
-    rgba(245, 241, 241, 1) 63%
-  );
-  background: linear-gradient(
-    228deg,
-    rgba(34, 194, 195, 1) 0%,
-    rgba(147, 151, 147, 1) 0%,
-    rgba(245, 241, 241, 1) 63%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c2c3",endColorstr="#f5f1f1",GradientType=1);
+  .section-image {
+    width: 50px;
+    margin-bottom: 50px;
+  }
+  .section-image-bottom {
+    width: 50px;
+    margin-top: 50px;
+  }
 }
 
 /*
