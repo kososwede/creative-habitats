@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.title-section {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.title-image {
+  width: 50%;
+}
