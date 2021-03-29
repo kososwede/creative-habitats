@@ -101,6 +101,9 @@ body {
 }
 
 .title-section {
+}
+
+.image-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
