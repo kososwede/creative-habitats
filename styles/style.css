@@ -65,7 +65,7 @@ hr {
 }
 
 .carousel-container {
-  width: 70%;
+  width: 60%;
 }
 
 .title-section {
@@ -184,6 +184,9 @@ div.review-box {
     width: 200px;
     height: 200px;
   }
+  .carousel-container {
+    width: 90%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -200,6 +203,9 @@ div.review-box {
 
   .title-image {
     width: 70%;
+  }
+  .carousel-container {
+    width: 90%;
   }
 }
 
@@ -242,6 +248,12 @@ div.review-box {
   .tools-pic {
     width: 150px;
     height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 90%;
   }
 }
 
