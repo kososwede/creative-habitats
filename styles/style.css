@@ -46,7 +46,7 @@ hr {
 .my-work-section,
 .testimonials-section,
 .contact-section {
-  height: 100vh;
+  height: 100%;
   background-image: url("../images/leafs-falling.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,9 +60,6 @@ hr {
 
 .title-image {
   width: 50%;
-  margin: auto;
-
-  justify-content: center;
 }
 
 .title-section {
@@ -108,6 +105,59 @@ hr {
   float: right;
 }
 
+.review-row {
+  width: 100%;
+  margin: auto;
+}
+
+.review-container {
+  text-align: center !important;
+  margin: auto;
+}
+
+.review-row,
+.review-box {
+  float: none;
+
+  vertical-align: middle;
+}
+
+.review-row {
+  align-content: center;
+}
+
+.review-box {
+  border: solid;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: linen;
+  height: 300px;
+}
+
+p.review {
+  margin: auto;
+  padding: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+em.customer {
+  margin: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.testimonials-section {
+  height: 100%;
+  justify-content: center;
+}
+div.review-box {
+  background-image: url("../images/review-leafs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 480px) {
   .services-section,
   .my-work-section,
@@ -122,6 +172,11 @@ hr {
 
   .title-image {
     width: 70%;
+  }
+
+  .review-pic {
+    width: 200px;
+    height: 200px;
   }
 }
 
