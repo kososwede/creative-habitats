@@ -115,6 +115,11 @@ hr {
   height: 100vh;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 .titles {
   text-align: center;
   padding-bottom: 20px;
@@ -199,6 +204,11 @@ div.review-box {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+i.fab.fa-instagram {
+  color: white;
+  font-size: 40px;
 }
 
 @media (max-width: 480px) {
