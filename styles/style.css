@@ -206,9 +206,48 @@ div.review-box {
   background-size: cover;
 }
 
-i.fab.fa-instagram {
-  color: white;
-  font-size: 40px;
+.contact-icons {
+  text-align: center;
+}
+
+.fa-border {
+  border-radius: 50% !important;
+  background-image: url("../images/leaf-testimonial.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: transparent !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.fa-instagram {
+  font-size: 60px;
+  color: rgb(56, 54, 54);
+  margin-right: 60px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.insta {
+  font-size: 30px;
+  color: black;
+}
+.phone {
+  font-size: 25px;
+  color: black;
+}
+
+.contact-me {
+  margin-top: 30px;
+}
+
+.fa-mobile-alt {
+  font-size: 60px;
+  margin-left: 60px;
+  margin-top: 30px;
+  color: rgb(56, 54, 54);
 }
 
 @media (max-width: 480px) {
