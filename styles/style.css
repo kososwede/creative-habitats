@@ -273,6 +273,19 @@ div.review-box {
   .review-box {
     width: 70%;
   }
+
+  .fa-instagram,
+  .fa-mobile-alt {
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .insta {
+    font-size: 20px;
+  }
+  .phone {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 1024px) {
